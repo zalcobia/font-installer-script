@@ -3,8 +3,8 @@
 
 #!/bin/sh
 
-# Written by: Keefer Rourke <https://krourke.org>
-# Based on AUR package <https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=ttf-google-fonts-git>
+# written by: Pedro Graça
+# email: xalcobia@gmail.com
 
 # installs microsoft core fonts family
 sudo apt-get install ttf-mscorefonts-installer -y
