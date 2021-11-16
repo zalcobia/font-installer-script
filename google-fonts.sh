@@ -10,8 +10,6 @@ pkgdir="/usr/share/fonts/truetype/google-fonts"
 giturl="git://github.com/google/fonts.git"
 giturl="git://github.com/adobe-fonts/source-code-pro.git"
 giturl="git://github.com/source-foundry/Hack.git"
-giturl="git://github.com/tonsky/FiraCode.git"
-
 
 mkdir $srcdir
 cd $srcdir
