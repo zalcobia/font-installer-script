@@ -1,16 +1,17 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-# Written by: Keefer Rourke <https://krourke.org>
+# Written by: Pedro Graça
 # Based on AUR package <https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=ttf-google-fonts-git>
 
-# installs microsoft core fonts family
-sudo apt-get install ttf-mscorefonts-installer -y
-
-# dependancies: fonts-cantarell, ttf-ubuntu-font-family, git
-sudo apt-get install fonts-cantarell ttf-ubuntu-font-family git
+# dependancies: fonts-cantarell, ttf-ubuntu-font-family, ttf-mscorefonts-installer, git
+sudo apt-get install fonts-cantarell ttf-ubuntu-font-family ttf-mscorefonts-installer git
 srcdir="/tmp/google-fonts"
 pkgdir="/usr/share/fonts/truetype/google-fonts"
 giturl="git://github.com/google/fonts.git"
+giturl="git://github.com/adobe-fonts/source-code-pro.git"
+giturl="git://github.com/source-foundry/Hack.git"
+giturl="git://github.com/tonsky/FiraCode.git"
+
 
 mkdir $srcdir
 cd $srcdir
